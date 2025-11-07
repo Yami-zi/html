@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Inscrição de Evento</h1>
+    <p><strong>Venha para a melhor palestra sobre Linguagens de Programação e Tecnologia</strong></p>
+    <form action="final.html" method="get">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required autofocus><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label>Gênero:</label>
+            <input type="radio" name="genero" value="masculino"> Masculino
+            <input type="radio" name="genero" value="feminino"> Feminino
+            <br><br>
+
+            <label>Interesses:</label>
+            <input type="checkbox" name="interesses" value="Software"> Software
+            <input type="checkbox" name="interesses" value="Hardware"> Hardware
+            <br><br>
+
+            <label for="site">Site Pessoal:</label>
+            <input type="url" id="site" name="site"><br><br>
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="data" name="data"><br><br>
+
+            <label for="cor">Cor Favorita:</label>
+            <input type="color" id="cor" name="cor"><br><br>
+
+            <label for="comentario">Comentários:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea><br><br>
+
+            <label for="cidade">Escolha sua cidade:</label>
+            <select id="cidade" name="cidade">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+            </select><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+    <br>
+    <a href="index.html" class="botao">Voltar para a página inicial</a>
