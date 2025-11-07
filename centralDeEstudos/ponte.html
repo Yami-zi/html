@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de Aprendizado</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #1c1c1c;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #90caf9;
+      font-weight: bold;
+      padding: 10px;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background-color: #333;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    }
+
+    .card h2 {
+      color: #90caf9;
+    }
+
+    .card p {
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #2d89ef;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #1b64c3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background: #1a1a1a;
+    }
+
+    strong {
+      color: #64b5f6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo à Central de Estudos</h1>
+    <p>Aprenda Português, Matemática e Algoritmos com conteúdos explicativos e claros</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="lp.html">Português</a></li>
+      <li><a href="mat.html">Matemática</a></li>
+      <li><a href="visualg.html">VisualG</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>Dificuldades de Português</h2>
+      <p>Entenda como usar corretamente a palavra <strong>"que"</strong>, o <strong>"se"</strong> e os <strong>"porquês"</strong>. Explicações com exemplos e dicas práticas.</p>
+      <a class="button" href="lp.html">Acessar Conteúdo</a>
+    </div>
+
+    <div class="card">
+      <h2>Porcentagem e Regra de Três</h2>
+      <p>Aprenda a calcular porcentagens e usar a regra de três simples e composta com exemplos resolvidos e passo a passo.</p>
+      <a class="button" href="mat.html">Acessar Conteúdo</a>
+    </div>
+
+    <div class="card">
+      <h2>Introdução ao VisualG</h2>
+      <p>Descubra como essa ferramenta ajuda iniciantes a aprender algoritmos com uma linguagem intuitiva e prática.</p>
+      <a class="button" href="visualg.html">Acessar Conteúdo</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 - Central de Aprendizado | Criado para facilitar seus estudos
+  </footer>
+
+</body>
+</html>

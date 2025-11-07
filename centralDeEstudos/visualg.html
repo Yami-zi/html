@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Introdução ao VisualG</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #1c1c1c;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #90caf9;
+      font-weight: bold;
+      padding: 10px;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background-color: #333;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #90caf9;
+      margin-bottom: 15px;
+    }
+
+    p, li {
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    code, pre {
+      background: #2e2e2e;
+      color: #ffffff;
+      padding: 10px;
+      border-left: 4px solid #64b5f6;
+      overflow-x: auto;
+      font-family: monospace;
+      display: block;
+      white-space: pre;
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background: #1a1a1a;
+    }
+
+    strong {
+      color: #64b5f6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Introdução ao VisualG</h1>
+    <p>Entenda a ferramenta ideal para aprender algoritmos</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="ponte.html">Início</a></li>
+      <li><a href="lp.html">Português</a></li>
+      <li><a href="mat.html">Matemática</a></li>
+      <li><a href="visualg.html">VisualG</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>O que é o VisualG</h2>
+      <p>VisualG é uma ferramenta didática que auxilia no ensino de algoritmos através de uma linguagem próxima ao português estruturado.</p>
+    </section>
+
+    <section>
+      <h2>Finalidade e Público-alvo</h2>
+      <p>Destinado a iniciantes no mundo da programação, o VisualG ajuda a compreender os fundamentos da lógica algorítmica.</p>
+    </section>
+
+    <section>
+      <h2>Ambiente de Desenvolvimento</h2>
+      <ul>
+        <li>Interface intuitiva</li>
+        <li>Editor de código, console e botões de execução</li>
+        <li>Execução passo a passo e mensagens de erro didáticas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tipos de Variáveis</h2>
+      <ul>
+        <li><strong>Inteiro (int):</strong> Ex: 10, -5, 0</li>
+        <li><strong>Real (real):</strong> Ex: 3.14, -2.5, 0.0</li>
+        <li><strong>Caractere (char):</strong> Ex: 'a', '!', ' '</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Estruturas de Controle</h2>
+      <ul>
+        <li><strong>Condicionais:</strong> se, então, senão</li>
+        <section>
+  <h2>Vídeo Explicativo: Condicionais no VisualG</h2>
+  <p>Veja o vídeo abaixo com a explicação completa de Condicionais na Programação</p>
+  <div style="text-align:center;">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/ZAo9T78-32Q" title="Lógica de programação 09 - Estruturas condicionais"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="max-width: 100%; border-radius: 10px; box-shadow: 0 0 15px rgba(255,255,255,0.1);">
+    </iframe>
+  </div>
+</section>
+        <li><strong>Repetições:</strong> enquanto, para</li>
+          <h2>Vídeo Explicativo: Condicionais no VisualG</h2>
+  <p>Veja o vídeo abaixo com a explicação completa de Repetições na Programação</p>
+  <div style="text-align:center;">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/RlgdACEgA8c" title="Lógica de programação 10 - Estruturas de repetição"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="max-width: 100%; border-radius: 10px; box-shadow: 0 0 15px rgba(255,255,255,0.1);">
+    </iframe>
+  </div>
+</section>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Exemplo de Algoritmo</h2>
+      <pre>
+// Calcula a média de dois números
+algoritmo "media"
+var
+  num1, num2, media: real
+inicio
+  escreva("Digite o primeiro número: ")
+  leia(num1)
+  escreva("Digite o segundo número: ")
+  leia(num2)
+  media := (num1 + num2) / 2
+  escreval("A média é: ", media)
+fimalgoritmo
+      </pre>
+    </section>
+
+    <section>
+  <h2>Vídeo Explicativo: Média Aritmética no VisualG</h2>
+  <p>Veja o vídeo abaixo com a explicação completa de um algoritmo no VisualG que calcula a média de dois números:</p>
+  <div style="text-align:center;">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/fFOLU2PsBxE?list=PLzM_ddcR5JvS-tgWE5MUGBnwkha4OIGUD"
+      title="Lógica de programação no VisuAlg - Algoritmo que calcula a média aritmética [Exercício]"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="max-width: 100%; border-radius: 10px; box-shadow: 0 0 15px rgba(255,255,255,0.1);">
+    </iframe>
+  </div>
+</section>
+
+
+    <section>
+      <h2>Explicação do Exemplo</h2>
+      <ul>
+        <li>Recebe dois valores reais</li>
+        <li>Calcula a média</li>
+        <li>Exibe o resultado com <code>escreval()</code></li>
+        <li>Usa estruturas sequenciais e operadores matemáticos</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Instalação do VisualG</h2>
+      <ul>
+        <li><strong>Site:</strong> <a href="http://visualg3.com.br" target="_blank">http://visualg3.com.br</a></li>
+        <li><strong>Requisitos:</strong> Windows, 10MB de espaço</li>
+        <li><strong>Passos:</strong> Baixar → Executar instalador → Concluir</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Conclusão</h2>
+      <p>O VisualG é uma excelente porta de entrada para quem deseja entender lógica de programação, oferecendo um ambiente amigável e eficaz para aprender.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 - Central de Aprendizado | Página sobre VisualG
+  </footer>
+
+</body>
+</html>
