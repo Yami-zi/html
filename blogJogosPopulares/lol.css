@@ -1,0 +1,91 @@
+header{
+    background-color: rgba(255, 0, 0, 0.733);
+    width: 100%;
+    padding: 20px;
+    top: 0;
+}
+.sum li :hover{
+    color: darkred;
+}
+.sum ul {
+    margin-right: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-image: url(./img/73408-1920x1080-desktop-1080p-league-of-legends-wallpaper-image.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+nav :hover{
+    color: green;
+}
+nav{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    align-items: center;
+}
+#riot {
+    color: red;
+}
+.meio li{
+    padding-left: 50px;
+    background: rgba(255, 0, 0, 0.349);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+img {
+    width: 1000;
+    height: 500px;
+}
+#inc {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);  
+    color: white;  
+    border-radius: 10px; 
+}
+footer {
+    background:rgba(255, 0, 0, 0.548);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+  }
+.fim{
+    list-style-type: none;
+}

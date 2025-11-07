@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.volta {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.volta :hover{
+    color: darkblue;
+}
+.sum ul{
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+}
+.sum li :hover{
+    color: blue;
+}
+.prin li{
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-size: 25px;
+    background-image: url(./img/roblox.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+}
+#imagem{
+    width: 400px;
+    height: 200px;
+}
+main{
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);  
+    color: white;  
+    border-radius: 10px; 
+}
+header {
+    background-color: #1f1f1f96;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 2em;
+    color: #00c3ff;
+}
+
+h2 {
+    color: #ffbf00;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1f1f1f9a;
+    border-radius: 10px;
+}

@@ -1,0 +1,141 @@
+h1{
+    text-align: center;
+}
+#cab :hover{
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/pc-gaming-broken-controller-zvbj1ryoiptz09af.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: #2222229a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #44444470;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2222228f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.info {
+    background-color: #ffffffc9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+
+.info h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info ul {
+    padding-left: 20px;
+}
+
+#list {
+    list-style-type: none;
+}
+#final {
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+.abas{
+    gap: 20px;
+    list-style-type: none;
+    display: flex;
+
+}
+.abas li{
+    margin-left: 120px;
+}
+.btn-roblox {
+    display: inline-block;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: grey;
+}
+.btn-steam {
+    display: inline-block;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 153, 255);
+    background-color: rgb(0, 204, 255);
+}
+.btn-lol {
+    display: inline-block;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid red;
+    background-color: darkred;
+}
+.btn-mine {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: greenyellow;
+}
